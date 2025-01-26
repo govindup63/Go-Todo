@@ -1,0 +1,59 @@
+# Binaries
+*.exe
+*.out
+*.app
+*.dll
+*.dylib
+*.so
+*.a
+*.o
+
+# Go build artifacts
+/bin/
+/pkg/
+/dist/
+*.test
+*.prof
+*.cover
+*.log
+
+# Go module files
+go.sum
+go.work.sum
+
+# Dependency directories (older Go versions without modules)
+vendor/
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Coverage reports
+coverage.out
+*.coverprofile
+*.cov
+
+# Debugging files
+trace.out
+pprof/
+debug/
+
+# Environment files
+.env
+.env.local
+.env.*.local
