@@ -12,13 +12,8 @@ import (
 // completeCmd represents the complete command
 var completeCmd = &cobra.Command{
 	Use:   "complete",
-	Short: "A brief description of your command",
-	Long: `A longer description that spans multiple lines and likely contains examples
-and usage of using your command. For example:
-
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+	Short: "Check mark your completed todo and remove it from the list",
+	Long:  `use this command to check mark your completed todo and remove it from the To-do list`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("complete called")
 	},
